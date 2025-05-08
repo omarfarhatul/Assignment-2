@@ -22,7 +22,7 @@ header, main, footer{
   /* header style */
   /* navbar */
   .navbar{
-    max-width: 900px;
+    max-width: 1050px;
     justify-content: space-between;
     align-items: center;
     margin: auto;
@@ -57,22 +57,24 @@ header, main, footer{
 
   /* Get body in shape & stay healthy */
   .body-shape{
+    max-width: 1050px;
     margin: 30px auto;
+    justify-content: space-between;
   }
 
   .body-div{
     max-width: 435px;
-
   }
 
   .body-title{
     font-size: 4.06rem;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .body-description{
     font-size: 0.88rem;
+    margin-bottom: 30px;
   }
 
   .primary-btn, .primary-btn1{
@@ -87,7 +89,7 @@ header, main, footer{
   .primary-btn1{
     background-color: black;
     border: 1px solid white;
-    
+    margin-left: 40px;
   }
 
   
