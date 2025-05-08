@@ -50,6 +50,48 @@ header, main, footer{
 
   .nav-button{
     padding: 6px 16px;
+    font-weight: 600;
     border-radius: 45px;
     background-color: #E6533C;
+  }
+
+  /* Get body in shape & stay healthy */
+  .body-shape{
+    margin: 30px auto;
+  }
+
+  .body-div{
+    max-width: 435px;
+
+  }
+
+  .body-title{
+    font-size: 4.06rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  .body-description{
+    font-size: 0.88rem;
+  }
+
+  .primary-btn, .primary-btn1{
+    color: white;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 14px 34px;
+    background-color: #E6533C;
+    border: none;
+  }
+
+  .primary-btn1{
+    background-color: black;
+    border: 1px solid white;
+    
+  }
+
+  
+
+  .body-image{
+    max-width: 292px;
   }
