@@ -209,14 +209,40 @@ section{
   }
 
   /* Trainings and Exercises */
+  .training{
+    margin: 100px auto;
+  }
+
+  .training-details{
+    max-width: 570px;
+  }
+
   .training-img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
   }
 
   .training-img > img{
     max-width: 100%;
     
+  }
+
+  /* BMI Calculator */
+  .bmi-calculator{
+    margin: auto;
+    text-align: center;
+  }
+
+  .bmi-details{
+    max-width: 570px;
+    margin: auto;
+  }
+
+  .main-calculation{
+    max-width: 100%;
+    height: 100px;
+    background-color: rgb(66, 62, 62);
   }
 
   /* Small device */
