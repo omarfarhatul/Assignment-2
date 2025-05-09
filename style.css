@@ -185,8 +185,14 @@ section{
     max-width: 1050px;
     background-color: rgb(40, 39, 39);
     border-radius: 20px;
-    padding: 30px;
+    padding: 50px;
     margin: auto;
+    justify-content: space-between;
+  }
+
+  .run-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .run-div > img{
@@ -197,7 +203,7 @@ section{
 
   .run-div{
     max-width: 365px;
-    margin: auto;
+    margin: 0;
   }
 
   /* Small device */
@@ -206,18 +212,19 @@ section{
       display: none;
     }
 
-    .body-shape,
-    .habit-img
-    {
-      flex-direction: column;
-    }
+  .body-shape,
+  .habit-img,
+  .run
+  {
+    flex-direction: column;
+  }
 
   .body-title{
     margin-top: 0;
   }
 
   .body-card1{
-    margin-left: 5px;
+    margin-left: 0;
   }
 
   .body-img > .body-image{
@@ -235,5 +242,14 @@ section{
     .habit-img{
       align-items: center;
       gap: 40px;
+    }
+
+    .run{
+      gap: 20px;
+    }
+
+    .run-div > img{
+      max-width: 265px;
+      max-height: 210px;
     }
   }
