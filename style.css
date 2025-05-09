@@ -15,6 +15,10 @@ header, main, footer{
     max-height: 1200px;
 }
 
+section{
+  max-width: 1050px;
+}
+
 .display-flex{
     display: flex;
 }
@@ -157,7 +161,7 @@ header, main, footer{
   }
 
   .habit-img{
-    justify-content: space-evenly;
+    gap: 100px;
   }
 
   .habit-div{
@@ -176,6 +180,25 @@ header, main, footer{
     margin-bottom: 10px;
   }
 
+  /* Run an Extra Mile Easily */
+  .run{
+    max-width: 1050px;
+    background-color: rgb(40, 39, 39);
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto;
+  }
+
+  .run-div > img{
+    max-width: 365px;
+    max-height: 310px;
+    border-radius: 10px;
+  }
+
+  .run-div{
+    max-width: 365px;
+    margin: auto;
+  }
 
   /* Small device */
   @media screen and (max-width: 576px) {
