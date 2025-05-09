@@ -140,6 +140,42 @@ header, main, footer{
     font-weight: 700;
   }
 
+  /* Change Your Habits */
+  .habits{
+    margin: 100px auto;
+  }
+
+  .habits-body{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .habits-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 auto;
+  }
+
+  .habit-img{
+    justify-content: space-evenly;
+  }
+
+  .habit-div{
+    max-width: 195px;
+    text-align: center;
+  }
+
+  .habit-div > img{
+    max-width: 160px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  .habit-title{
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
 
   /* Small device */
   @media screen and (max-width: 576px) {
@@ -147,7 +183,34 @@ header, main, footer{
       display: none;
     }
 
-    .body-shape{
+    .body-shape,
+    .habit-img
+    {
       flex-direction: column;
+    }
+
+  .body-title{
+    margin-top: 0;
+  }
+
+  .body-card1{
+    margin-left: 5px;
+  }
+
+  .body-img > .body-image{
+    margin-left: 40px;
+  }
+
+    .primary-btn1{
+      margin-left: 15px;
+    }
+
+    .habits{
+      margin-top: 350px;
+    }
+
+    .habit-img{
+      align-items: center;
+      gap: 40px;
     }
   }
