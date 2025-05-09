@@ -108,8 +108,9 @@ section{
   .body-card1{
     max-width: 150px;
     padding: 18px;
+    border: 1px solid rgb(40, 39, 39);
     border-radius: 6px;
-    background-color: rgb(40, 39, 39);
+    backdrop-filter: blur(25px);
     gap: 10px;
     align-items: center;
     margin-left: -120px;
@@ -132,8 +133,9 @@ section{
   .body-card2{
     max-width: 150px;
     padding: 18px;
+    border: 1px solid rgb(40, 39, 39);
     border-radius: 6px;
-    background-color: rgb(40, 39, 39);
+    backdrop-filter: blur(25px);
     margin-left: 200px;
     margin-top: -300px;
     position: relative;
@@ -204,6 +206,17 @@ section{
   .run-div{
     max-width: 365px;
     margin: 0;
+  }
+
+  /* Trainings and Exercises */
+  .training-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .training-img > img{
+    max-width: 100%;
+    
   }
 
   /* Small device */
