@@ -221,6 +221,7 @@ section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 40px;
+    object-fit: cover;
   }
 
   .training-img > img{
@@ -229,27 +230,34 @@ section{
   }
 
   /* BMI Calculator */
-  .main-calculation{
-    background-color: rgb(50, 47, 47);
-    max-width: 100%;
-    margin-top: 50px;
-  }
-
-  .calculation-chart{
-    max-width: 1050px;
-    margin: auto;
-    padding-top: 40px;
-  }
-
   .bmi-calculator{
-    margin: auto;
     text-align: center;
+    margin: auto;
   }
 
   .bmi-details{
     max-width: 570px;
     margin: auto;
   }
+
+  .main-calculation{
+    background-color: rgb(50, 47, 47);
+    max-width: 100%;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .main-div{
+    max-width: 1050px;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .calculation-chart{
+    text-align: center;
+  }
+
 
 
   /* Calculation */
@@ -277,6 +285,10 @@ td{
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
+}
+
+.bmi-calculation{
+  max-width: 575px;
 }
 
   /* Small device */
