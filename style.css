@@ -320,9 +320,17 @@ td{
 
 /* footer part*/
 .fitness-footer{
+  background-color: rgb(50, 47, 47);
+  max-width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.fitness-div{
   max-width: 1050px;
   margin: auto;
   justify-content: space-between;
+  margin-bottom: 120px;
 }
 
 .footer-details{
@@ -341,7 +349,7 @@ td{
 
 .footer-get{
   max-width: 510px;
-  gap: 100px;
+  gap: 150px;
 }
 
 .get-title{
@@ -354,6 +362,24 @@ td{
   font-size: 1.4rem;
 }
 
+.get-list li{
+  margin-bottom: 18px;
+}
+
+.fitness-2024{
+  max-width: 1050px;
+  margin: auto;
+  text-align: center;
+}
+
+.fitness-line{
+  height: 1px;
+  background-color: #FFFFFF;
+}
+
+.fitness-des{
+  font-size: 1.3rem;
+}
 
 
   /* Small device */
