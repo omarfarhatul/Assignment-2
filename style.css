@@ -11,10 +11,6 @@
   }
 
   /* Share style */
-header, main, footer{
-    max-height: 1200px;
-}
-
 section{
   max-width: 1050px;
 }
@@ -323,7 +319,24 @@ td{
 }
 
 /* footer part*/
+.fitness-footer{
+  max-width: 1050px;
+  margin: auto;
+}
 
+.footer-title{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #E6533C;
+}
+
+.footer-description{
+  font-size: 0.88rem;
+}
+
+.get-list{
+  list-style: none;
+}
 
   /* Small device */
   @media screen and (max-width: 576px) {
