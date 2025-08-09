@@ -325,6 +325,11 @@ td{
   border-radius: 10px;
 }
 
+.team-images img{
+  width: 350px;
+  height: 300px;
+}
+
 .card{
   border-radius: 8px;
 }
