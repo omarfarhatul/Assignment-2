@@ -329,6 +329,14 @@ td{
   border-radius: 8px;
 }
 
+.trainer-name{
+  font-size: 1rem;
+}
+
+.trainer-co{
+  font-size: 0.84rem;
+}
+
 /* footer part*/
 .fitness-footer{
   background-color: rgb(50, 47, 47);
