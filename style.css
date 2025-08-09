@@ -344,11 +344,16 @@ td{
   gap: 100px;
 }
 
+.get-title{
+  font-size: 1.8rem;
+}
 
 .get-list{
   list-style: none;
   margin-left: -35px;
+  font-size: 1.4rem;
 }
+
 
 
   /* Small device */
