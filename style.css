@@ -322,6 +322,11 @@ td{
 .fitness-footer{
   max-width: 1050px;
   margin: auto;
+  justify-content: space-between;
+}
+
+.footer-details{
+  max-width: 440px;
 }
 
 .footer-title{
@@ -334,9 +339,17 @@ td{
   font-size: 0.88rem;
 }
 
+.footer-get{
+  max-width: 510px;
+  gap: 100px;
+}
+
+
 .get-list{
   list-style: none;
+  margin-left: -35px;
 }
+
 
   /* Small device */
   @media screen and (max-width: 576px) {
