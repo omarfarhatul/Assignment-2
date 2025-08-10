@@ -24,6 +24,26 @@ section{
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* trainings and exercises background img */
+  .card1{
+    background-color: #06FFD2;
+  }
+  .card2{
+    background-color: #FF0000;
+  }
+  .card3{
+    background-color: #CCCCCC;
+  }
+  .card4{
+    background-color: #000000;
+  }
+  .card5{
+    background-color: #42FF00;
+  }
+  .card6{
+    background-color: #0047FF;
+  }
+
   /* header style */
   /* navbar */
   .navbar{
@@ -345,7 +365,7 @@ td{
   font-size: 0.84rem;
 }
 
-/* footer part*/
+/* fitness footer part*/
 .fitness-footer{
   background-color: rgb(50, 47, 47);
   max-width: 100%;
