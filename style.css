@@ -293,10 +293,6 @@ section{
     text-align: center;
   }
 
-  .bmi-btn{
-    margin-top: 20px;
-  }
-
 
   /* Calculation part*/
 table{
@@ -327,6 +323,35 @@ td{
 
 .bmi-calculation{
   max-width: 575px;
+}
+
+.bmi-de{
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+    select {
+      width: 250px;
+      padding: 12px;
+      border: none;
+      color: #FFFFFF;
+      border-radius: 8px;
+      background-color: #3a3a3a;
+      font-size: 14px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+    }
+
+select{
+  width: 275px;
+}
+
+input::placeholder {
+  color: #FFFFFF;
+}
+
+.bmi-btn{
+  margin-top: 20px;
 }
 
 /* Meet Our Team */

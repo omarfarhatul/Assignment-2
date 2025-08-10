@@ -186,16 +186,21 @@
                     </div>
     
                     <div class="bmi-main-calculation">
-                        <form action="">
-                            <label for="">
-                                <input type="text" placeholder="Height/cm">
-                            </label>
-                            <label for="">
-                                <input type="text" placeholder="Weight/kg">
-                            </label>
-                        </form>
+                        <form>
+                            <input type="text" placeholder="Height/cm" name="height">
+                            <input type="text" placeholder="Weight/kg" name="weight">
+                            <br>
+                            <input type="text" placeholder="Age" name="age">
+                            
+                            <select name="sex">
+                              <option value="">Sex</option>
+                              <option value="male">Male</option>
+                              <option value="female">Female</option>
+                            </select>
+                            <br>
+                            
+                            <button class="primary-btn bmi-btn">Calculate</button>
                     </div>
-                    <button class="primary-btn bmi-btn">Calculate</button>
             </div>
           </section>
 
