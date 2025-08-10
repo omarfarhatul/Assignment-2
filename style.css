@@ -505,6 +505,10 @@ input::placeholder {
       max-height: 210px;
     }
 
+    .team-images{
+      background-color: black;
+    }
+
     .training-img{
     grid-template-columns: 1fr;
     }
