@@ -273,6 +273,9 @@ section{
     text-align: center;
   }
 
+  .bmi-btn{
+    margin-top: 20px;
+  }
 
 
   /* Calculation part*/
@@ -414,7 +417,9 @@ td{
 
   .body-shape,
   .habit-img,
-  .run
+  .run,
+  .main-div,
+  .fitness-div
   {
     flex-direction: column;
   }
@@ -439,8 +444,9 @@ td{
       margin-top: 350px;
     }
 
-    .habit-img{
+    .habit-img, .main-div, .training-details{
       align-items: center;
+      text-align: center;
       gap: 40px;
     }
 
@@ -451,5 +457,17 @@ td{
     .run-div > img{
       max-width: 265px;
       max-height: 210px;
+    }
+
+    .training-img{
+    grid-template-columns: 1fr;
+    }
+
+    .team-details{
+      max-width: 100%;
+    }
+
+    .footer-get{
+      gap: 40px;
     }
   }
